@@ -1,3 +1,4 @@
-.navbar-bg {
-  background-image: linear-gradient(to right, #7986cb, #c5cae9);
+.navbar-color {
+  background-image: linear-gradient(to right, #c5cae9, #7986cb);
+  color: #6f1e51;
 }

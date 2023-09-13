@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <div className="navbar navbar-bg">
+        <div className="navbar navbar-color text-[24px] font-bold">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,18 +32,27 @@ class Navbar extends Component {
                   <a>Home</a>
                 </li>
                 <li>
-                  <a>Parent</a>
+                  <a>Academic Info</a>
                   <ul className="p-2">
                     <li>
-                      <a>Submenu 1</a>
+                      <a>Notice Board</a>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <a>Admission</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a>Item 3</a>
+                  <a>Teacher Info</a>
+                </li>
+                <li>
+                  <a>Our Classroom</a>
+                </li>
+                <li>
+                  <a>About Us</a>
+                </li>
+                <li>
+                  <a>Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -58,24 +67,56 @@ class Navbar extends Component {
               </li>
               <li tabIndex={0}>
                 <details>
-                  <summary>Parent</summary>
+                  <summary>Academic Info</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Submenu 1</a>
+                      <a>Notice Board</a>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <a>Admission</a>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>Teacher Info</a>
+              </li>
+              <li>
+                <a>Our Classroom</a>
+              </li>
+              <li>
+                <a>About Us</a>
+              </li>
+              <li>
+                <a>Contact Us</a>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn">Button</a>
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                <div className="w-10 rounded-full">
+                  <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                </div>
+              </label>
+              <ul
+                tabIndex={0}
+                className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a className="justify-between">
+                    Profile
+                    <span className="badge">New</span>
+                  </a>
+                </li>
+                <li>
+                  <a>Settings</a>
+                </li>
+                <li>
+                  <a>Logout</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

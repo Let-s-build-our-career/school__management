@@ -1,11 +1,10 @@
 import "./App.css";
-import MarqueeText from "./components/Home/MarqueeText";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div>
-      <h1>From git checkout</h1>
-      <MarqueeText />
+    <div className="bg-[#fafafa] h-screen">
+      <Home />
     </div>
   );
 }

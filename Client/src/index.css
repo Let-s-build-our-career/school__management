@@ -1,3 +1,7 @@
 /* i am moon  */
 /* hello moon from development */
 /* Hello i am Tahazzat */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

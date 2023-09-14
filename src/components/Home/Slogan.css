@@ -1,0 +1,7 @@
+.slogan-sub-container {
+  @apply flex items-center justify-center;
+}
+.slogan-title {
+  font-family: "Dancing Script";
+  @apply bg-[#fafafa] text-3xl md:text-4xl font-semibold px-16 md:px-20 lg:px-32;
+}
